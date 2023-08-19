@@ -1,0 +1,8 @@
+#btn {
+    border-radius: 8px;
+    background: var(--linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+    display: inline-flex;
+    padding: 10px 15px;
+    align-items: flex-start;
+    gap: 10px;
+}
