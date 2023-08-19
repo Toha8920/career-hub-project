@@ -6,6 +6,7 @@ import Home from './components/Home/Home.jsx'
 import Statics from './components/Statics/Statics.jsx'
 import Blog from './components/Blog/Blog'
 import AppliedJob from './components/AppliedJob/AppliedJob'
+import JobDetails from './components/JobDetails/JobDetails'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: '/applied',
         element: <AppliedJob></AppliedJob>
+      },
+      {
+        path: '/job/:jobId',
+        element: <JobDetails></JobDetails>,
       },
       {
         path: '/blog',

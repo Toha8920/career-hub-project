@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "img": "./assets/All Images/google-1-1 1.png",
+        "name": "Technical Database Engineer",
+        "company": "Google LLC",
+        "type": "Remote",
+        "location": "Dhaka,Bangladesh",
+        "salary": "100k-150k",
+        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "requirements": "Bachelor degree to complete any reputational university.",
+        "experience": "2-3 years in this filed"
+    },
+    {
+        "id": 2,
+        "img": "./assets/All Images/netflix-4 1.png",
+        "name": "Senior Product Designer",
+        "company": "Netflix",
+        "type": "Remote",
+        "location": "Chitagang,Bangladesh",
+        "salary": "120k-150k",
+        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "requirements": "Bachelor degree to complete any reputational university.",
+        "experience": "2-3 years in this filed"
+    },
+    {
+        "id": 3,
+        "img": "./assets/All Images/tesla-9 1.png",
+        "name": "Software Engineer",
+        "company": "Tesla",
+        "type": "Remote",
+        "location": "Khulna,Bangladesh",
+        "salary": "100k-130k",
+        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "requirements": "Bachelor degree to complete any reputational university.",
+        "experience": "2-3 years in this filed"
+    },
+    {
+        "id": 4,
+        "img": "./assets/All Images/Group 10021.png",
+        "name": "Technical Database Engineer",
+        "company": "Airbnb",
+        "type": "Onsite",
+        "location": "Dhaka,Bangladesh",
+        "salary": "100k-150k",
+        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "requirements": "Bachelor degree to complete any reputational university.",
+        "experience": "2-3 years in this filed"
+    },
+    {
+        "id": 5,
+        "img": "./assets/All Images/google-1-1 1.png",
+        "name": "Technical Database Engineer",
+        "company": "Google LLC",
+        "type": "Remote",
+        "location": "Dhaka,Bangladesh",
+        "salary": "100k-150k",
+        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "requirements": "Bachelor degree to complete any reputational university.",
+        "experience": "2-3 years in this filed"
+    },
+    {
+        "id": 6,
+        "img": "./assets/All Images/google-1-1 1.png",
+        "name": "Technical Database Engineer",
+        "company": "Google LLC",
+        "type": "Remote",
+        "location": "Dhaka,Bangladesh",
+        "salary": "100k-150k",
+        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "requirements": "Bachelor degree to complete any reputational university.",
+        "experience": "2-3 years in this filed"
+    }
+]

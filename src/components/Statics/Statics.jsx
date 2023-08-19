@@ -1,14 +1,34 @@
 import { useEffect, useState } from "react";
 import man from "../../../public/assets/All Images/P3OLGJ1 copy 1.png"
 import Jb from "../Jb/Jb";
+import Job from "../Job/Job";
 const Statics = () => {
+    const [jb, setJb] = useState([]);
     const [jobs, setJobs] = useState([]);
+    const [data, setData] = useState([]);
+
 
     useEffect(() => {
         fetch('category.json')
             .then(res => res.json())
-            .then(data => setJobs(data))
-    }, [])
+            .then(data => setJb(data))
+    }, []);
+
+    useEffect(() => {
+        fetch('jobs.json')
+            .then(res => res.json())
+            .then(data => setData(data))
+    }, []);
+
+    useEffect(() => {
+        setJobs(data?.slice(0, 4))
+    }, [data]);
+
+    const handleJobs = () => {
+        setJobs(data)
+    }
+
+    console.log(jobs)
 
     return (
         <div>
@@ -27,13 +47,23 @@ const Statics = () => {
                 <p className="text-center text-sm">Explore thousands of job opportunities with all the information you need. Its your future</p>
                 <div className="grid grid-cols-4 gap-4 mt-10">
                     {
-                        jobs.map(job => <Jb key={job.id} job={job}></Jb>)
+                        jb.map(job => <Jb key={job.id} job={job}></Jb>)
                     }
                 </div>
             </div>
             <div className="mt-14">
                 <h2 className="text-2xl text-center">Featured Jobs</h2>
                 <p className="small text-center">Explore thousands of job opportunities with all the information you need. Its your future</p>
+                <div className="grid grid-cols-2 gap-4 mt-10 mx-14">
+                    {
+                        jobs.map(job => <Job key={job.id} job={job}></Job>)
+                    }
+                </div>
+                <div className="flex justify-center items-center">
+                    {
+                        jobs.length === 4 && <button onClick={handleJobs} id="btn" className="text-white mt-5">View All</button>
+                    }
+                </div>
             </div>
         </div>
     );
